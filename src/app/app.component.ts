@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pipes';
+  students = [
+    { name: 'Vishak', gender: 'male' },
+    { name: 'Sandra', gender: 'female' },
+    { name: 'James', gender: 'male' },
+    { name: 'Jerry', gender: 'male' },
+    { name: 'Ruby', gender: 'female' }
+  ];
+  date: Date = new Date();
 }
